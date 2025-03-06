@@ -5,11 +5,13 @@ public class Users {
     private String nom;
     private String email;
     private String role;
+    private String password ;
 
-    public Users( String nom, String email, String role) {
+    public Users( String nom, String email, String role , String password) {
         this.nom = nom;
         this.email = email;
         this.role = role;
+        this.password = password;
     }
     public Users (){}
 
@@ -43,6 +45,14 @@ public class Users {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
 

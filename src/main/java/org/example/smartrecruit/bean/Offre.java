@@ -46,4 +46,5 @@ public class Offre {
     public void setDateoffre(Date dateoffre) {
         this.dateoffre = dateoffre;
     }
+
 }
