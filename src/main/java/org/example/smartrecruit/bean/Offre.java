@@ -1,14 +1,12 @@
 package org.example.smartrecruit.bean;
 
-import java.util.Date;
-
 public class Offre {
     private  int idoffre ;
     private  String titre ;
     private String description ;
-    private Date dateoffre ;
+    private String dateoffre ;
 
-    public Offre(String titre, String description, Date dateoffre) {
+    public Offre(String titre, String description, String dateoffre) {
         this.titre = titre;
         this.description = description;
         this.dateoffre = dateoffre;
@@ -39,11 +37,11 @@ public class Offre {
         this.description = description;
     }
 
-    public Date getDateoffre() {
+    public String getDateoffre() {
         return dateoffre;
     }
 
-    public void setDateoffre(Date dateoffre) {
+    public void setDateoffre(String dateoffre) {
         this.dateoffre = dateoffre;
     }
 
